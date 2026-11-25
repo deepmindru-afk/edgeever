@@ -4,13 +4,13 @@ export const ruSiteTagline =
 export const ruSiteCopy = {
   layout: {
     defaultDescription:
-      "EdgeEver — это self-hosted рабочее пространство для заметок и база знаний с открытым исходным кодом и нативной поддержкой ИИ. Классический трехпанельный интерфейс (дерево блокнотов · список заметок · редактор) на macOS, Windows, Linux, iOS, Android и Web Clipper, с прямой интеграцией с локальными агентами ACP, боковой панелью ассистента и визуальными диаграммами. Работает в бесплатном тарифе Cloudflare или в Docker.",
-    defaultTitle: `EdgeEver - ${ruSiteTagline}`,
-    imageAlt: "Скриншот приложения заметок EdgeEver",
+      "Portal — это self-hosted рабочее пространство для заметок и база знаний с открытым исходным кодом и нативной поддержкой ИИ. Классический трехпанельный интерфейс (дерево блокнотов · список заметок · редактор) на macOS, Windows, Linux, iOS, Android и Web Clipper, с прямой интеграцией с локальными агентами ACP, боковой панелью ассистента и визуальными диаграммами. Работает в бесплатном тарифе Cloudflare или в Docker.",
+    defaultTitle: `Portal - ${ruSiteTagline}`,
+    imageAlt: "Скриншот приложения заметок Portal",
     ogLocale: "ru_RU",
   },
   nav: {
-    homeAria: "Главная EdgeEver",
+    homeAria: "Главная Portal",
     features: "Возможности",
     guides: "Руководства",
     deploy: "Развертывание",
@@ -49,12 +49,12 @@ export const ruSiteCopy = {
     linux: "Linux",
     migrationTitle: "Миграция заметок",
     migrationSubtitle: "Нативный импорт из Evernote, Obsidian и Joplin, а также миграция из Notion и flomo",
-    imageAlt: "Предпросмотр интерфейса EdgeEver",
+    imageAlt: "Предпросмотр интерфейса Portal",
     badgeText:
       "💡 Все платформы: macOS, Windows, Linux, iOS, Android, Web Clipper · Нативная синергия с MCP и ACP · Бесплатный тариф Cloudflare и Docker",
   },
   bento: {
-    eyebrow: "WHY EDGEEVER",
+    eyebrow: "WHY Portal",
     heading: "Переосмыслено для автономных баз знаний и работы с ИИ",
     subheading:
       "Без навязчивой рекламы, лимитов на устройства и дорогих подписок. Каждая деталь создана для быстрого, открытого и приватного «второго мозга».",
@@ -70,12 +70,12 @@ export const ruSiteCopy = {
       folder3: "03_Архив_заметки",
       folder4: "↳ 2026_Чтение",
       listTitle: "Заметки (18)",
-      note1Title: "Архитектура EdgeEver",
+      note1Title: "Архитектура Portal",
       note1Sub: "Cloudflare Workers / Docker и SQLite...",
       note2Title: "Подключение локального ACP-агента",
       note2Sub: "Локальная синергия с Codex / Antigravity...",
-      editorTitle: "Архитектура EdgeEver",
-      editorBody: "EdgeEver объединяет классический трехпанельный интерфейс, совместную работу с ИИ-агентами и гибкие варианты развертывания.",
+      editorTitle: "Архитектура Portal",
+      editorBody: "Portal объединяет классический трехпанельный интерфейс, совместную работу с ИИ-агентами и гибкие варианты развертывания.",
       editorSaveTag: "Автоматически сохранено в SQLite",
     },
     card2: {
@@ -240,7 +240,7 @@ export const ruSiteCopy = {
         points: [
           "Без лимитов на устройства: собственный API снимает коммерческие ограничения вроде «не более 2 устройств».",
           "Десктопное приложение для macOS: Electron + Rust sidecar + SQLite для максимальной производительности, агентов ACP и офлайн-синхронизации.",
-          "Windows x64: локальный SQLite, пункт «Отправить в EdgeEver» в контекстном меню проводника и автоматические обновления.",
+          "Windows x64: локальный SQLite, пункт «Отправить в Portal» в контекстном меню проводника и автоматические обновления.",
           "Нативные мобильные приложения: SwiftUI-приложение для iOS (в App Store) и Android-приложение (в Google Play и подписанный APK) с отменой/повтором и шерингом.",
           "Расширение Web Clipper: доступно для Chrome, Edge и Firefox для сохранения страниц, картинок, постов X и выделений.",
         ],
@@ -258,12 +258,12 @@ export const ruSiteCopy = {
     ],
   },
   guides: {
-    eyebrow: "EdgeEver Guides",
+    eyebrow: "Portal Guides",
     heading: "Развертывание, миграция и интеграция с ИИ-агентами",
-    description: "Самые быстрые шаги для старта с EdgeEver: разверните инстанс, перенесите старые заметки и подключите ИИ через MCP.",
+    description: "Самые быстрые шаги для старта с Portal: разверните инстанс, перенесите старые заметки и подключите ИИ через MCP.",
     items: [
       {
-        title: "Выбор способа развертывания EdgeEver",
+        title: "Выбор способа развертывания Portal",
         summary: "Разверните автоматически с помощью ИИ-агента или вручную на Cloudflare, либо запустите скрипт Docker на VPS/NAS.",
         href: "/blog/ai-agent-deploy-cloudflare",
         cta: "Читать руководство по деплою",
